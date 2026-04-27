@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathCore — Resumos de Matemática</title>
+    <script src="js/theme-init.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="mathcore-landing">
+    <header class="landing__topbar">
+      <div class="landing__topbar-brand" aria-label="MathCore">
+        <span class="landing__topbar-logo" aria-hidden="true">
+          <span class="landing__logo-icon">∑</span>
+        </span>
+        <span class="landing__topbar-word">MathCore</span>
+      </div>
+      <div class="landing__topbar-actions" id="landing-theme-anchor"></div>
+    </header>
+    <!--
+      Fundo: o gradiente verde cobre images/hero-math.svg (formas geométricas discretas).
+      Para uma fotografia: coloca hero-math.jpg na pasta images/ e altera em css/styles.css
+      a propriedade background da classe .landing__bg para apontar para o JPG.
+    -->
+    <main class="landing">
+      <div class="landing__bg" aria-hidden="true"></div>
+      <div class="landing__content">
+        <h1>Bem-vindo ao MathCore</h1>
+        <p class="landing__subtitle">Aqui estão reunidos resumos dos 10º e 11º anos</p>
+        <div class="landing__cards">
+          <a class="landing-card" href="ano10.html">
+            10º Ano
+            <span>Domínio 10 · Vol. 1, 2 e 3</span>
+          </a>
+          <a class="landing-card" href="ano11.html">
+            11º Ano
+            <span>Matemática A · estrutura editável</span>
+          </a>
+        </div>
+        <p class="landing__footer">Ferramenta de estudo · navegação tipo base de conhecimento</p>
+      </div>
+    </main>
+    <script src="js/theme-ui.js" defer></script>
+  </body>
+</html>

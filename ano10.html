@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathCore — 10.º Ano</title>
+    <script src="js/theme-init.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="grade-hub">
+    <header class="grade-hub__top">
+      <a class="grade-hub__home" href="index.html">Início</a>
+    </header>
+
+    <main class="grade-hub__main">
+      <header class="grade-hub-header">
+        <h1 class="grade-hub-header__title">10.º Ano</h1>
+        <p class="grade-hub-header__subtitle">Domínio 10 — Vol. 1, 2 e 3 · do mais recente ao mais antigo</p>
+      </header>
+
+      <div class="volume-grid">
+        <!--
+          IMAGEM DA CAPA (cada cartão — lado direito):
+          - Pasta: MathCore/images/
+          - Formatos recomendados: PNG ou JPG (proporção vertical tipo livro, ex. 600×800 px)
+          - Caminho relativo a esta página, ex.: images/vol10-1.png
+          - Também podes usar nomes simples como images/vol1.png — evita colisões entre anos usando vol10-1, vol11-1, etc.
+          - Para mostrar a capa: dentro de .volume-card__cover adiciona
+            <img class="volume-card__book" src="images/vol10-1.png" alt="Capa do manual — Vol. 1" />
+        -->
+        <a class="volume-card" href="vol10-1.html">
+          <div class="volume-card__inner">
+            <div class="volume-card__text">
+              <span class="volume-card__vol">Vol. 1</span>
+              <span class="volume-card__line"><strong>Tema 1</strong> — Modelos Matemáticos para a Cidadania</span>
+              <span class="volume-card__line"><strong>Tema 2</strong> — Estatística</span>
+            </div>
+            <div class="volume-card__cover">
+              <div class="volume-card__placeholder">
+                <span class="volume-card__ph-icon" aria-hidden="true">▢</span>
+                <span>Capa Vol. 1</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="volume-card" href="vol10-2.html">
+          <div class="volume-card__inner">
+            <div class="volume-card__text">
+              <span class="volume-card__vol">Vol. 2</span>
+              <span class="volume-card__line"><strong>Tema 3</strong> — Geometria sintética no plano</span>
+              <span class="volume-card__line"><strong>Tema 4</strong> — Funções</span>
+            </div>
+            <div class="volume-card__cover">
+              <div class="volume-card__placeholder">
+                <span class="volume-card__ph-icon" aria-hidden="true">▢</span>
+                <span>Capa Vol. 2</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="volume-card" href="vol10-3.html">
+          <div class="volume-card__inner">
+            <div class="volume-card__text">
+              <span class="volume-card__vol">Vol. 3</span>
+              <span class="volume-card__line"><strong>Tema 5</strong> — Geometria analítica</span>
+            </div>
+            <div class="volume-card__cover">
+              <div class="volume-card__placeholder">
+                <span class="volume-card__ph-icon" aria-hidden="true">▢</span>
+                <span>Capa Vol. 3</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </main>
+    <script src="js/theme-ui.js" defer></script>
+  </body>
+</html>
