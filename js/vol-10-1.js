@@ -54,6 +54,7 @@ window.MATHCORE_VOLUME = {
           ],
         },
         { num: "3", title: "Dados bivariados", slug: "dados_bivariados", items: [] },
+        { num: "4", title: "Calculadora gráfica", slug: "calculadora_grafica", items: [] },
       ],
     },
   ],
