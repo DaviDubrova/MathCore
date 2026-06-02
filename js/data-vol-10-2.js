@@ -17,6 +17,7 @@ window.MATHCORE_VOLUME = {
           num: "1",
           title: "Pontos notáveis do triângulo",
           items: [
+            { num: "1", title: "Pontos notáveis de um triângulo", slug: "pontos_notaveis_triangulo" },
             { num: "1.1", title: "Incentro", slug: "incentro" },
             { num: "1.2", title: "Circuncentro", slug: "circuncentro" },
             { num: "1.3", title: "Ortocentro", slug: "ortocentro" },
